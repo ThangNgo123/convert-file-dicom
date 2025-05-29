@@ -1,1 +1,42 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
 .venv/
+venv/
+ENV/
+env/
+
+# pip cache and wheels
+*.egg-info/
+*.egg
+*.whl
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+*.spec
+
+# Logs
+*.log
+
+# Test cache
+.pytest_cache/
+
+# mypy cache
+.mypy_cache/
+
+# VSCode settings (optional)
+.vscode/
+
+# MacOS system files
+.DS_Store
